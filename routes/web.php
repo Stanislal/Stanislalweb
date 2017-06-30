@@ -12,5 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('test');
+
+    return view('templates.template1');
 });
+
+
+
+
+Route::resource('register', 'RegisterController');

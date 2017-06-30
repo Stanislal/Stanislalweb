@@ -37,10 +37,10 @@
           <div class="size-banner">
             @include ('partials.banner')
           </div>
+          <div class="size-breadcrumb">
+            @include ('partials.breadcrumb')
+          </div>
           <div class="size-content">
-            <div class="size-breadcrumb">
-              @include ('partials.breadcrumb')
-            </div>
             @yield ('content')
           </div>
         </div>
@@ -124,7 +124,7 @@ body {
 }
 
 .size-container-body {
-  height: auto;
+  min-height: 800px;
   position: relative;
   display: flex;   //    Faz com que os filhos possuam sua divisão sem sobrepor
 
@@ -133,10 +133,10 @@ body {
 
 .size-container-left {
   width: 30%;
-  height: 100%;
+
   position: relative;
   background: linear-gradient(to right,#453e49 0,#363039 50%,#453e49 100%);
-  min-height: 800px;   // Tamanho Minimo do Conteiner
+  height: auto;
   border: 1px solid black;
 }
 
@@ -144,6 +144,8 @@ body {
   width: 70%;
   background-color: #f1e4da;
   position: relative;
+  height: auto;
+
 
   border: 1px solid black;
 }
@@ -174,9 +176,12 @@ body {
   background-color: #dec9c2;
   border-radius: 0px;
   font-size: 12px;
+  margin-bottom: 0px;
 }
 
-
+.size-content {
+  padding: 10px 20px;    // qualquer coisa modificar é o espaçamento padrão do cotent
+}
 
 </style>
 

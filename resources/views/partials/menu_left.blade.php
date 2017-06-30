@@ -5,11 +5,6 @@
     <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
         <div class="menu-list">
             <ul id="menu-content" class="menu-content collapse out">
-                <li>
-                  <a href="#">
-                  <i class="fa fa-dashboard fa-lg"></i> Painel de Controle
-                  </a>
-                </li>
                 <li  data-toggle="collapse" data-target="#products" class="collapsed">   <!-- class="collapsed active" -->
                   <a><i class="fa fa-database"></i> Mysql <span class="arrow"></span></a>
                 </li>

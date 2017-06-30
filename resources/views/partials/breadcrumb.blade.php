@@ -1,7 +1,6 @@
 <nav class="breadcrumb">
   <a class="breadcrumb-item" href="#">Inicio</a>
-  <a class="breadcrumb-item" href="#">Biblioteca</a>
-  <span class="breadcrumb-item active">Mysql</span>
+  <a class="breadcrumb-item" href="#">Inicio</a>
 </nav>
 <!-- Terei que implementar com PHP para que funcione corretamente -->
 

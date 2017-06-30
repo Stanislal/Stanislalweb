@@ -4,7 +4,7 @@
      <a class="navbar-brand"  href="#">Stanislal Project</a>
    </div>
    <ul class="nav navbar-nav">
-     <li><a href="#">Inicio</a></li>
+     <li><a href="\">Inicio</a></li>
      <li><a href="#">Biblioteca</a></li>
      <li class="li-border-right"><a href="#">Downloads</a></li>
    </ul>
@@ -19,7 +19,7 @@
      </div>
    </form> -->
    <ul class="nav navbar-nav navbar-right">
-     <li ><a href="#"><span class="glyphicon glyphicon-user"></span> Cadastrar</a></li>
+     <li ><a href="register"><span class="glyphicon glyphicon-user"></span> Cadastrar</a></li>
      <li ><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
    </ul>
  </div>
